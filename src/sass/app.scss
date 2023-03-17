@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap");
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+  font-family: "Source Serif Pro", serif;
+}
+
+body {
+  background-color: $bgcolor;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.fullname {
+  display: inline;
+  font-size: 3.5rem;
+  color: $primary-text;
+}
+
+.nickname {
+  display: inline;
+  font-size: 1.75rem;
+  color: $secondary-text;
+  margin-left: 10px;
+}
